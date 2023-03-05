@@ -1,0 +1,12 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenGenerated{
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+}
