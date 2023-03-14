@@ -12,7 +12,7 @@ function App() {
   const stringSearch = `Pokemon tipo ${stringTipo} con ${stringAtributo}`;
 
   const configuration = new Configuration({
-    apiKey: import.meta.env.VITE_Open_AI_KEY,
+    apiKey: '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',
   });
 
   const openai = new OpenAIApi(configuration);
